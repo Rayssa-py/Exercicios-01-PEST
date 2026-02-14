@@ -17,6 +17,5 @@ elif medida == "centimetros" and convert == "metros":
 elif medida == convert:
 	result = valor
 else:
- 	print("a unidade de medida está incorreta.")
- 	result = 0
-print(f"O resultado da conversão é : {result}")
+ 	result = "não foi possivel fazer a conversão, unidade de medida incorreta."
+print(f"Conversão: {result}")
